@@ -1,8 +1,8 @@
-import React from 'react'
-import Users from './Users'
-import Albums from './Albums'
+import React from "react";
+import Users from "./Users";
+import Albums from "./Albums";
 
-function Content (props) {
+function Content(props) {
   return (
     <div className="container">
       <div className="row">
@@ -14,7 +14,7 @@ function Content (props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Content
+export default Content;
