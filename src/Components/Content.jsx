@@ -1,6 +1,7 @@
 import React from "react";
 import Users from "./Users";
 import Albums from "./Albums";
+import Fotos from './Fotos'
 
 function Content(props) {
   return (
@@ -9,8 +10,11 @@ function Content(props) {
         <div className="col-md-4">
           <Users />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-4">
           <Albums />
+        </div>
+        <div className="col-md-4">
+          <Fotos />
         </div>
       </div>
     </div>

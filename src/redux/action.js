@@ -29,3 +29,19 @@ export const loadAlbums = () => {
       });
   };
 };
+
+export const loadFotos = () => {
+  return (dispatch) => {
+    dispatch({
+      type: "fotos/load/start",
+    });
+    fetch("https://jsonplaceholder.typicode.com/photos")
+      .then((response) => response.json())
+      .then((json) => {
+        dispatch({
+          type: "fotos/load/success",
+          payload: json,
+        });
+      });
+  };
+};

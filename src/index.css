@@ -24,11 +24,17 @@ body {
 .load {
   text-align: center;
   margin-top: 250px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: cadetblue;
 }
-.albums {
+.album a {
+  color: black;
+}
+.album a:hover {
+  text-decoration: none;
+}
+.foto_one {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -37,4 +43,5 @@ body {
   width: 150px;
   height: 150px;
   margin-top: 50px;
+  list-style-type: none;
 }

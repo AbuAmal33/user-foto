@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c7ab33-d836-42d3-bdca-17c3e4994ab5" name="Default Changelist" comment="" />
+    <list default="true" id="92c7ab33-d836-42d3-bdca-17c3e4994ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Foto.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Fotos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/fotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Album.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Album.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Albums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Albums.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +55,8 @@
       <workItem from="1613499450764" duration="7769000" />
       <workItem from="1613750843140" duration="7044000" />
       <workItem from="1613841597484" duration="2187000" />
-      <workItem from="1614013182110" duration="5018000" />
+      <workItem from="1614013182110" duration="5426000" />
+      <workItem from="1614098082182" duration="4702000" />
     </task>
     <servers />
   </component>

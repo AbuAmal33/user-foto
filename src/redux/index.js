@@ -3,6 +3,7 @@ import thunk from "redux-thunk";
 import { createLogger } from "redux-logger";
 import usersReducer from "./users";
 import albumsReducer from "./albums";
+import fotosReducer from './fotos'
 
 const logger = createLogger({
   diff: true,
@@ -12,6 +13,7 @@ const logger = createLogger({
 const rootReducer = combineReducers({
   users: usersReducer,
   albums: albumsReducer,
+  fotos: fotosReducer,
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
