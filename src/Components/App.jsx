@@ -1,10 +1,9 @@
-import Header from "./Components/Header";
-import Content from "./Components/Content";
+import Header from "./Header";
+import Content from "./Content";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { loadAlbums, loadUsers, loadFotos } from "./redux/action";
-import { useEffect } from "react";
-import { Route } from "react-router-dom";
+import { loadAlbums, loadUsers, loadFotos } from "../redux/action";
+import { useEffect } from "react"
 
 function App() {
   const dispatch = useDispatch();
@@ -19,15 +18,13 @@ function App() {
   }, [dispatch]);
 
   if (loadingUsers || loadingAlbums || loadingFotos) {
-    return <div>идёт загрузка...</div>;
+    return <div className="loading">идёт загрузка...</div>;
   }
 
   return (
     <div className="App">
       <Header />
-      <Route path={"/:id?"}>
-        <Content />
-      </Route>
+      <Content />
     </div>
   );
 }

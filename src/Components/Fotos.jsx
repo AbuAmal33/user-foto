@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom'
 import Foto from "./Foto";
 
 function Fotos(props) {
@@ -14,11 +14,11 @@ function Fotos(props) {
     .filter((foto) => foto.url.indexOf(filter) > -1);
 
   return (
-      <div className="foto_one">
-        {filteredFotos.map((foto) => {
-          return <Foto key={foto.id} foto={foto} />;
-        })}
-      </div>
+    <div className="foto_one">
+      {filteredFotos.map((foto) => {
+        return <Foto key={foto.id} foto={foto} />;
+      })}
+    </div>
   );
 }
 

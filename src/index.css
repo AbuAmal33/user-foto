@@ -45,3 +45,6 @@ body {
   margin-top: 50px;
   list-style-type: none;
 }
+.loading {
+  font-size: 50px;
+}

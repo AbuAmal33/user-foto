@@ -19,7 +19,7 @@ export const loadAlbums = () => {
     dispatch({
       type: "albums/load/start",
     });
-    fetch("https://jsonplaceholder.typicode.com/photos")
+    fetch("https://jsonplaceholder.typicode.com/albums")
       .then((response) => response.json())
       .then((json) => {
         dispatch({

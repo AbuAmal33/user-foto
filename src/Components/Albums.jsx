@@ -10,7 +10,7 @@ function Albums(props) {
   const id = parseInt(useParams().id);
 
   const filteredAlbums = albums
-    .filter((album) => album.albumId === id)
+    .filter((album) => album.userId === id)
     .filter((album) => album.url.indexOf(filter) > -1);
 
   if (!id) {

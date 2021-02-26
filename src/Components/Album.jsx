@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom"
 
 function Album(props) {
   return (
@@ -8,7 +8,6 @@ function Album(props) {
         <Link to={`/${props.album.id}`}>{props.album.title}</Link>
       </li>
     </div>
-
   );
 }
 
