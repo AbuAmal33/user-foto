@@ -14,12 +14,12 @@ export const loadUsers = () => {
   };
 };
 
-export const loadAlbums = () => {
+export const loadAlbums = (id) => {
   return (dispatch) => {
     dispatch({
       type: "albums/load/start",
     });
-    fetch("https://jsonplaceholder.typicode.com/albums")
+    fetch(`https://jsonplaceholder.typicode.com/albums/?userId=${id}`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
@@ -30,12 +30,12 @@ export const loadAlbums = () => {
   };
 };
 
-export const loadFotos = () => {
+export const loadFotos = (id) => {
   return (dispatch) => {
     dispatch({
       type: "fotos/load/start",
     });
-    fetch("https://jsonplaceholder.typicode.com/photos")
+    fetch(`https://jsonplaceholder.typicode.com/photos/?albumId=${id}`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({

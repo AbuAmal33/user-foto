@@ -3,13 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="92c7ab33-d836-42d3-bdca-17c3e4994ab5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Album.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Album.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Albums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Albums.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Foto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Foto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Fotos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Fotos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Album.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Album.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Albums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Foto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Foto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Fotos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Fotos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action.js" afterDir="false" />
@@ -63,6 +67,7 @@
       <workItem from="1614098082182" duration="5123000" />
       <workItem from="1614190388172" duration="4215000" />
       <workItem from="1614351349620" duration="8520000" />
+      <workItem from="1614794659710" duration="9354000" />
     </task>
     <servers />
   </component>
