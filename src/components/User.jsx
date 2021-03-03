@@ -6,7 +6,11 @@ function User(props) {
 
   return (
     <div className="user">
-      <li className={`list-group-item ${openedUserId === props.user.id ? 'list-group-item-info' : ''}`}>
+      <li
+        className={`list-group-item ${
+          openedUserId === props.user.id ? "list-group-item-info" : ""
+        }`}
+      >
         <Link to={`/${props.user.id}`}>{props.user.name}</Link>
       </li>
     </div>

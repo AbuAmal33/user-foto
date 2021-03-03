@@ -1,14 +1,14 @@
 import React from "react";
-import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 import Foto from "./Foto";
-import { loadFotos } from '../redux/action'
-import { useEffect } from "react"
-import { BoxLoading } from "react-loadingg"
+import { loadFotos } from "../redux/action";
+import { useEffect } from "react";
+import { BoxLoading } from "react-loadingg";
 
 function Fotos(props) {
   const fotos = useSelector((state) => state.fotos.items);
-  const loadingFotos = useSelector((state => state.fotos.loadingFotos));
+  const loadingFotos = useSelector((state) => state.fotos.loadingFotos);
   const dispatch = useDispatch();
 
   const albumId = parseInt(useParams().albumId);
@@ -17,7 +17,7 @@ function Fotos(props) {
 
   useEffect(() => {
     if (albumId !== undefined) {
-      dispatch(loadFotos(albumId))
+      dispatch(loadFotos(albumId));
     }
   }, [dispatch, albumId]);
 

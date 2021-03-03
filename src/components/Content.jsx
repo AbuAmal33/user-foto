@@ -1,7 +1,7 @@
 import React from "react";
 import Users from "./Users";
 import Albums from "./Albums";
-import Fotos from './Fotos'
+import Fotos from "./Fotos";
 
 function Content(props) {
   return (
