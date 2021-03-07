@@ -1,13 +1,13 @@
 export const loadUsers = () => {
   return (dispatch) => {
     dispatch({
-      type: "users/load/start",
+      type: 'Users/load/start',
     });
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "users/load/success",
+          type: 'Users/load/success',
           payload: json,
         });
       });
@@ -17,29 +17,29 @@ export const loadUsers = () => {
 export const loadAlbums = (id) => {
   return (dispatch) => {
     dispatch({
-      type: "albums/load/start",
+      type: 'Albums/load/start',
     });
     fetch(`https://jsonplaceholder.typicode.com/albums/?userId=${id}`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "albums/load/success",
+          type: 'Albums/load/success',
           payload: json,
         });
       });
   };
 };
 
-export const loadFotos = (id) => {
+export const loadPhotos = (id) => {
   return (dispatch) => {
     dispatch({
-      type: "fotos/load/start",
+      type: 'Photos/load/start',
     });
     fetch(`https://jsonplaceholder.typicode.com/photos/?albumId=${id}`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "fotos/load/success",
+          type: 'Photos/load/success',
           payload: json,
         });
       });

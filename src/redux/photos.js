@@ -1,25 +1,25 @@
 const initialState = {
   filter: '',
   items: [],
-  loadingAlbums: false,
+  loadingPhotos: false,
 };
 
-const albumsReducer = (state = initialState, action) => {
+const photosReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'Albums/load/start':
+    case 'Photos/load/start':
       return {
         ...state,
-        loadingAlbums: true,
+        loadingPhotos: true,
       };
-    case 'Albums/load/success':
+    case 'Photos/load/success':
       return {
         ...state,
         items: action.payload,
-        loadingAlbums: false,
+        loadingPhotos: false,
       };
     default:
       return state;
   }
 };
 
-export default albumsReducer;
+export default photosReducer;

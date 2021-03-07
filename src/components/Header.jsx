@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function Header(props) {
+function Header() {
   return (
     <div className="container">
       <div className="row">

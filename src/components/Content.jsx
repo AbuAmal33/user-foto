@@ -1,15 +1,15 @@
-import React from "react";
-import Users from "./Users";
-import Albums from "./Albums";
-import Fotos from "./Fotos";
+import React from 'react';
+import Users from './Users';
+import Albums from './Albums';
+import Photos from './Photos';
 
-function Content(props) {
+function Content() {
   return (
     <div className="container">
       <div className="row">
         <Users />
         <Albums />
-        <Fotos />
+        <Photos />
       </div>
     </div>
   );

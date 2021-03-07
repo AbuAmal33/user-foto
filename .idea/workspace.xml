@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c7ab33-d836-42d3-bdca-17c3e4994ab5" name="Default Changelist" comment="" />
+    <list default="true" id="92c7ab33-d836-42d3-bdca-17c3e4994ab5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Album.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums/Album.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Albums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Foto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photos/Photo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Fotos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photos/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/fotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/photos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +52,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abuam\Desktop\совместны проекты\users\src\components\users" />
+      <recent name="C:\Users\abuam\Desktop\совместны проекты\users\src\components\albums" />
+      <recent name="C:\Users\abuam\Desktop\совместны проекты\users\src\components\photos" />
       <recent name="C:\Users\abuam\Desktop\совместны проекты\users\src\Components" />
     </key>
   </component>
@@ -51,7 +74,8 @@
       <workItem from="1614098082182" duration="5123000" />
       <workItem from="1614190388172" duration="4215000" />
       <workItem from="1614351349620" duration="8520000" />
-      <workItem from="1614794659710" duration="9697000" />
+      <workItem from="1614794659710" duration="9867000" />
+      <workItem from="1615141241871" duration="7349000" />
     </task>
     <servers />
   </component>

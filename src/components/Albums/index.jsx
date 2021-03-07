@@ -1,27 +1,27 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import Album from "./Album";
-import { useEffect } from "react";
-import { loadAlbums } from "../redux/action";
-import { BoxLoading } from "react-loadingg";
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import Album from './Album';
+import { useEffect } from 'react';
+import { loadAlbums } from '../../redux/action';
+import { BoxLoading } from 'react-loadingg';
 
-function Albums(props) {
+function Albums() {
   const albums = useSelector((state) => state.albums.items);
   const loadingAlbums = useSelector((state) => state.albums.loadingAlbums);
   const dispatch = useDispatch();
 
-  const id = parseInt(useParams().id);
+  const userId = parseInt(useParams().userId);
 
-  const filteredAlbums = albums.filter((album) => album.userId === id);
+  const filteredAlbums = albums.filter((album) => album.userId === userId);
 
   useEffect(() => {
-    if (id !== undefined) {
-      dispatch(loadAlbums(id));
+    if (userId) {
+      dispatch(loadAlbums(userId));
     }
-  }, [dispatch, id]);
+  }, [dispatch, userId]);
 
-  if (!id) {
+  if (!userId) {
     return <div className="load">выберите пользователя из списка</div>;
   }
 

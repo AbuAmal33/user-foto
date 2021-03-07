@@ -1,9 +1,9 @@
-import { applyMiddleware, combineReducers, createStore } from "redux";
-import thunk from "redux-thunk";
-import { createLogger } from "redux-logger";
-import usersReducer from "./users";
-import albumsReducer from "./albums";
-import fotosReducer from './fotos'
+import { applyMiddleware, combineReducers, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { createLogger } from 'redux-logger';
+import usersReducer from './users';
+import albumsReducer from './albums';
+import photosReducer from './photos';
 
 const logger = createLogger({
   diff: true,
@@ -13,7 +13,7 @@ const logger = createLogger({
 const rootReducer = combineReducers({
   users: usersReducer,
   albums: albumsReducer,
-  fotos: fotosReducer,
+  photos: photosReducer,
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));

@@ -34,12 +34,12 @@ body {
 .album a:hover {
   text-decoration: none;
 }
-.foto_one {
+.photo_one {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.foto {
+.photo {
   width: 150px;
   height: 150px;
   margin-top: 50px;
